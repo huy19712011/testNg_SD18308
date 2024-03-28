@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="D:/Projects/Java/Poly/testNg_SD18308/src/test/java/FirstTestCase.java(failed)">
+    <classes>
+      <class name="SecondTestCase">
+        <methods>
+          <include name="searchCustomer"/>
+        </methods>
+      </class> <!-- SecondTestCase -->
+    </classes>
+  </test> <!-- D:/Projects/Java/Poly/testNg_SD18308/src/test/java/FirstTestCase.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
