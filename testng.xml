@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="D:/Projects/Java/Poly/testNg_SD18308/src/test/java/FirstTestCase.java">
+    <test name="group_test">
+        <groups>
+            <run>
+                <include name="group1"/>
+                <include name="group2"/>
+            </run>
+        </groups>
         <classes>
-            <class name="FirstTestCase"></class>
-            <class name="SecondTestCase"></class>
-
+            <class name="GroupingDemo"></class>
         </classes>
     </test>
 </suite>
