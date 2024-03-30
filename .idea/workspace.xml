@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3144d481-4974-4639-8aa5-4225123acbc4" name="Changes" comment="Set up, basic, using xml file.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DependencyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GroupingDemo.java" afterDir="false" />
+    <list default="true" id="3144d481-4974-4639-8aa5-4225123acbc4" name="Changes" comment="testNG demo: grouping, dependency test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,8 @@
     "TestNG.DependencyDemo.executor": "Run",
     "TestNG.FirstTestCase.executor": "Run",
     "TestNG.GroupingDemo.executor": "Run",
+    "TestNG.SeleniumTest.executor": "Run",
+    "TestNG.SeleniumTest.setup.executor": "Run",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,17 +56,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.D:/Projects/Java/Poly/testNg_SD18308/testng.xml">
-    <configuration name="D:/Projects/Java/Poly/testNg_SD18308/test-output/testng-failed.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNg_SD18308" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/test-output/testng-failed.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SeleniumTest">
     <configuration name="D:/Projects/Java/Poly/testNg_SD18308/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNg_SD18308" />
       <shortenClasspath name="NONE" />
@@ -100,30 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNg_SD18308" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTestCase" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="org.testng.reporters.FailedReporter" />
-        <listener class="org.testng.reporters.EmailableReporter2" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GroupingDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNg_SD18308" />
       <option name="PACKAGE_NAME" value="" />
@@ -135,20 +101,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNg_SD18308" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.setup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNg_SD18308" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="setup" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="TestNG.SeleniumTest" />
+      <item itemvalue="TestNG.SeleniumTest.setup" />
       <item itemvalue="TestNG.DependencyDemo" />
       <item itemvalue="TestNG.GroupingDemo" />
-      <item itemvalue="TestNG.D:/Projects/Java/Poly/testNg_SD18308/test-output/testng-failed.xml" />
       <item itemvalue="TestNG.D:/Projects/Java/Poly/testNg_SD18308/testng.xml" />
-      <item itemvalue="TestNG.FirstTestCase" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SeleniumTest" />
+        <item itemvalue="TestNG.SeleniumTest.setup" />
         <item itemvalue="TestNG.D:/Projects/Java/Poly/testNg_SD18308/testng.xml" />
         <item itemvalue="TestNG.GroupingDemo" />
         <item itemvalue="TestNG.DependencyDemo" />
-        <item itemvalue="TestNG.D:/Projects/Java/Poly/testNg_SD18308/test-output/testng-failed.xml" />
-        <item itemvalue="TestNG.FirstTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +153,8 @@
       <workItem from="1711187907653" duration="43000" />
       <workItem from="1711215345229" duration="97000" />
       <workItem from="1711247008938" duration="333000" />
-      <workItem from="1711610504413" duration="4130000" />
+      <workItem from="1711610504413" duration="5138000" />
+      <workItem from="1711783081021" duration="5091000" />
     </task>
     <task id="LOCAL-00001" summary="Set up, basic, using xml file.">
       <option name="closed" value="true" />
@@ -174,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711611987580</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="testNG demo: grouping, dependency test">
+      <option name="closed" value="true" />
+      <created>1711614988481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711614988481</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +180,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up, basic, using xml file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up, basic, using xml file." />
+    <MESSAGE value="testNG demo: grouping, dependency test" />
+    <option name="LAST_COMMIT_MESSAGE" value="testNG demo: grouping, dependency test" />
   </component>
 </project>
